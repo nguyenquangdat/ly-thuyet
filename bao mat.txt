@@ -1,0 +1,38 @@
+bao mat thong tin : la duy tri tinh bao mat , toan ven , san cua thong tin
+
+Bao mat : nghia la dam bao thong tin chi duoc tiep can boi nguoi duoc cap quyen tuong ung 
+
+toan ven : la bao ve su chinh xac , hoan chinh cua thong tin  va thong tin chi duoc thay doi boi nguoi duoc cap quyen
+
+san sang : la nhung nguoi co quyen su dung co the ruy xuat thong tin khi ho can 
+
+---
+
+bao mat thong tin duoc phep chia se voi doi tuong nao ?
+
+-duoc chia se voi nhung nguoi duoc cap quyen  . Muon  chia se den nguoi khac thi phai duoc cap thuan tu nguoi cap quyen
+
+CAC CAP DO BAO MAT THONG TIN
+- cong khai , noi bo , mat , tuyen mat 
+
+QUY DINH BAO MAT O CTY XAY DUNG DUA TRen : ISO9001 ISO27001 
+
+1 ko duoc phep tiet lo , hay de cho bat cu ca nhan , to chuc nao duoc phep su dung thong tin bao mat , truy khi do la
+ yeu cau cua cong viec hay co su dong yk cua cap tren
+2 co trach nhiem bao mat , bao ve thong tin tranh' thong tin bi xam nhap
+3 ko duoc luu tru thiet bi ca nhan , trang chia se  ma nguon , gmail cho nguoi k duoc tham quyen ...
+4 look man hinh mat tinh khi ra khoi cho ngoi 
+5 xoa du lieu ca nhan va dang xuat tai khoan trong may dung chung cua cong ty
+6 ko tu y tai cac phan men ko ro nguon goc ...
+7 ko truy cap vao trang web co lien ket cao 
+8 ko su dung cac thiet bi USD ..
+9 k duoc lam mat the ra vao cong ty
+10 nghiem cam viec thuc hien cac tai khoan ca nhan ....
+11 nghiem cam luu tru cac tai nguyen cua du an ...
+12 khi tham gia vao du an bao mat thong tin --> doc ki noi dung de bao mat 
+13 cam su dung thu vien kien truc cua ben thu 3
+14 nghiem cam su dung cac thong tin ve cau hinh , thong tin nguoi dung , thong tin khach hang gui
+15 bao ngay cho cong ty khi bat gap truong hop chia se thong tin
+16 nghiem cau su dung gmail ca nhan trong khi tham gia du an
+17 k download forder du an 
+18 k yeu cau truy cap vao forder du an ...

@@ -1,0 +1,66 @@
+--git init de tao repository
+
+-- local repository
+git status -- Để check trạng thái của những file bạn đã thay đổi trong thư mục làm việc.
+VD: Tất cả các thay đổi cuối cùng từ lần commit cuối cùng.
+
+git add -- cho git xac nhan file
+
+git commit -m "thong bao"  --> git log hien len thong bao nay
+
+git log --> lich su commit
+
+git show  + ten(lay tu git log) : xem noi dung cua 1 commit (dấu + màu xanh bên trong tương đương với nội dung)
+
+git diff xem nội dung của modifile(khi mình thay đổi nội dung của 2 file trở lên thì Khi git status sẽ là modifile)
+dấu + màu xanh tương đương với nội dung thay đổi ) -> ấn q để thoát chế độ
+
+git K tạo ra cửa sổ có thể thay đổi được .
+
+git checkout -- (ten file) xoa thay đổi của file mới sửa == git restore (ten file)
+
+GIT RESET -- (ten file )  -> FILE TU TRANG THAY STAGING AREA CHUYEN THANH TRANG THAI CHUA ADD STAGING
+ 
+--> push len github
+git push ->> lan dau se hien ra huong dan 
+b1 : git remote <name><value>
+b2 : git push <name> =>> hien ra thong bao' lam theo la duoc 
+neu git push su file thi chir gan git push la duoc
+
+clone ve may
+
+b1 coppy duong dan tren github
+b2 open git bash
+b3 git clone + duong dan
+
+quay lai thay doi truoc
+b1 git revert + nguon (lay trong git log)
+b2 shift + : + q --> de dung lai
+
+-- keo ca project ve git pull
+-----------------------------------------------------------------------------------------------------------------
+git branch: kiem tra nhanh cua git
+git branch + tennhanh --> tao ra nhanh moi
+git checkout + tennhanh --> lay ten nhanh day lam chinh (con tro head se tro vao nhanh nay dau tien)
+git switch + ( master) -->> chuyen ve nhanh master 
+
+git merge + ten nhanh ->> gop nhanh vao voi nhanh hien tai
+
+git branch -d + ten nhanh ->> xoa nhanh'
+
+git log --oneline --graph (tao ra 1 do thi )	
+
+b1 git mergetoll < neu ma trung 2 file sua doi khi gop file>
+
+b2 :
+diffg LO : lay noi dung bang 1
+diffg RE : lay noi dung bang 2
+diffg BA : khong lay noi dung cai nao
+
+b3 : wq (ghi roi thoat)
+----------------------------------------------------------------------------------------------------------
+git reset --sotf +(id cua git log sau) chuyen trang thai commit thanh statging area 
+git reset --mixed +(------------------) chuyen trang thai commit thanh` not statging area
+git reset --hard +(-------------------) bo han no' di
+
+git revert <commit> chuyen lai trang thai , khi trong commit co noi dung dang sua doi --> thi mat noi dung dang sua doi.

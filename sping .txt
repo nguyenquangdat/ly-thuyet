@@ -1,0 +1,9 @@
+@Controller : dinh nghia class la 1 api
+@RequestMapping : nhan request tu client 
+@RequestMethod.Post:Kieu Htpp Post them (4 kieu get , put ,delete)
+@RequestBody:Nhan du lieu tu Json client ve server
+@ReponseBody:Tra ket qua Json tu server cho client
+
+@RestController = @Controller + @ReponseBody
+
+@PostMapping = @RequestMapping + method

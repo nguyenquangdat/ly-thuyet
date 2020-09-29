@@ -1,0 +1,6 @@
++authentication : khi dang nhap username password --> kiem tra xem user name password có tồn tại trong hệ thông không
+, có đúng k hay k ? nếu có trong database thì oke --> truy cập được vào hệ thống 
+
++authorization : nghia la phan quyenh 
+
+JPA auditing

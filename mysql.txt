@@ -1,0 +1,84 @@
+-- distinct + ten bang : loai bo trung lap
+
+--order by <ten bang> asc/desc : sap xep tang hoac giam dan
+
+-- where <ten bang>="thuoc tinh1 " or <ten bang>="thuoc tinh 2"   --> or co nghia la lay thuoc tinh 1 trong 2 hoac ca 2
+------------> co the thay bang where <ten bang> in("thuoc tinh 1" , "thuoc tinh 2")
+khi ket hop dieu kien voi 1 cau select khac ta dung in chu khong dung where .
+
+
+-- group by <ten bang>
+   having dieu kien (thuong se sum ...) 
+ ->> group by having su dung khi tinh thong hieu tich ...
+
+Between : dung khi lay 1 cai gi day trong khoang .
+cu phap : Where <ten bang> Between small AND hig
+
+
+like :
+cu phat : Where <ten bang> (not)like '%n%' -> % dai dien bat ki 
+       -------------------------- _n -> dai dien cho 1 ky tu
+       --------------------------- \_ no' se hieu la se nhan _ chu k phai dai dien cho 1 ky tu
+
+Union :
+ket hop ket qua 2 bang thanh 1 bang 
+dk ket hop : + so cot trong moi~ cau select phai bang nhau 
+             + kieu du lieu cua moi cot phai tuong ung
+luu yk' : + ket qua cua cau select nay ma trung ket qua cua cau select kia , thi se bi loai bo 
+---> muon du duoc het ket qua phai them chu ALL phai sau 
+          + len dat ten cot cua cau lenh select giong nhau khong no' se lay ten cua select  dau tien >>.<<
+
+Cu' phap : (select statement1) 
+           union 
+           (select statement2)
+
+insert:
+cu phap: insert<TenBang>(<cot1>,<cot2>...)
+         values('n1','n2') -> n1,n2 tuong duong voi ky tu chu~ --> dung giau ngoac don de xu ly chuoi\
+
+update : update<TenBang>
+         set <tencot>=<gia tri> -> dung giau ngoac don de xu ly chuoi
+         where  <tencot> ( where co hay ko cung~ duoc)
+
+delete select from <ten bang> where 
+xoa' 2 bang ta dung : delete<tenBang1>,<tenbang2>
+                      from <tenBang1>,<tenBang2>
+                      where tenbang1.thuoctinh=tenbang2.thuoctinh AND tenbang1.thuoctinh=  --> thuoc tinh phai giong nhau
+
+--sum(thuc hien phep tinh ben trong) : tinh tong 
+-- AVG(tencot): tinh trung binh 
+-- Max,Min(tencot)
+--Count(*) (* , hoac ten bang khoa chinh nao do) 
+
+-> cu phap cua 4 cai nay la: select 1 trong cac ham tren  , .........
+                             from .....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------
+-Datediff(date1,date2) <==> date1 - date2 --> so ngay (su dung de tinh lien quan ngay truoc , ngay sau)
+
+- mode(<tengbang>,2) =0 -->> chia het . mode(<tenbang>,2) =1 --> chia du
+
+- Case : + cach dung xet cac truong hop , su dung de thay doi gia tri
+         Case <Teng cot>
+            When condition<gia tri cua cot> Then result1 
+            When condition<gia tri cua cot> then result2 
+           ....
+             else result;
+          End;

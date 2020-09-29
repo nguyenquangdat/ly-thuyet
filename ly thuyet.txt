@@ -1,0 +1,11 @@
+@ComponentScan annotation    -->> san @components da them vao project
+
+@EnableAutoConfiguration    ->> cau hinh 
+
+@Controller -> RESTful web services
+
+@RequestMapping annotation ---> dinh nghia 1 request URI de truy cap
+
+
+@PathVariable --> lay gia tri sau ? khi truyen 
+javascript, type script, angular.io, frimefaces angualar,  
